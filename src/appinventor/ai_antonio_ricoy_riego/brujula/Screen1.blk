@@ -1,0 +1,73 @@
+<!DOCTYPE YACodeBlocks SYSTEM "support/save_format.dtd">
+<YACodeBlocks ya-version="75" lang-version="17">
+<Pages><Page page-name=" " page-color="237 245 211" page-width="1600" page-height="1600" page-drawer="My Definitions" >
+<PageBlocks>
+<BlockStub><StubParentName>azimuth</StubParentName><StubParentGenus>argument</StubParentGenus><Block id="1485" genus-name="getter" has-focus="yes" >
+<Location><X>475</X><Y>225</Y></Location>
+<Label>azimuth</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="1481" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>Label1.Text</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="1481" genus-name="componentSetter" >
+<Location><X>349</X><Y>222</Y></Location>
+<Label>Label1.Text</Label>
+<BeforeBlockId>829</BeforeBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="1485" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>azimuth</StubParentName><StubParentGenus>argument</StubParentGenus><Block id="847" genus-name="getter" >
+<Location><X>535</X><Y>187</Y></Location>
+<Label>azimuth</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="829" ></BlockConnector></Plug>
+</Block>
+</BlockStub>
+<BlockStub><StubParentName>ImageSprite1.Heading</StubParentName><StubParentGenus>read-write-property</StubParentGenus><Block id="829" genus-name="componentSetter" >
+<Location><X>349</X><Y>184</Y></Location>
+<Label>ImageSprite1.Heading</Label>
+<BeforeBlockId>831</BeforeBlockId>
+<AfterBlockId>1481</AfterBlockId>
+<Sockets num-sockets="1" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="to" position-type="single" con-block-id="847" ></BlockConnector>
+</Sockets>
+</Block>
+</BlockStub>
+<Block id="839" genus-name="argument" >
+<Location><X>623</X><Y>151</Y></Location>
+<Label>roll</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="831" ></BlockConnector></Plug>
+</Block>
+<Block id="837" genus-name="argument" >
+<Location><X>623</X><Y>123</Y></Location>
+<Label>pitch</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="831" ></BlockConnector></Plug>
+</Block>
+<Block id="835" genus-name="argument" >
+<Location><X>623</X><Y>95</Y></Location>
+<Label>azimuth</Label>
+<Plug><BlockConnector connector-kind="plug" connector-type="poly" init-type="poly" label="" position-type="single" con-block-id="831" ></BlockConnector></Plug>
+</Block>
+<Block id="831" genus-name="OrientationSensor-OrientationChanged" >
+<Location><X>295</X><Y>92</Y></Location>
+<Label>OrientationSensor1.OrientationChanged</Label>
+<Sockets num-sockets="4" >
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="azimuth" position-type="single" con-block-id="835" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="pitch" position-type="single" con-block-id="837" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="poly" init-type="poly" label="roll" position-type="single" con-block-id="839" ></BlockConnector>
+<BlockConnector connector-kind="socket" connector-type="cmd" init-type="cmd" label="do" is-indented="yes" position-type="single" con-block-id="829" ></BlockConnector>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+
+</Pages><YoungAndroidMaps><YoungAndroidUuidMap>
+<YoungAndroidUuidEntry uuid="-730739614" component-id="Canvas1" component-genus="Canvas" component-version="7" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-1598148604" component-id="OrientationSensor1" component-genus="OrientationSensor" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="0" component-id="Screen1" component-genus="Form" component-version="0" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-156625704" component-id="HorizontalArrangement1" component-genus="HorizontalArrangement" component-version="2" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-611497330" component-id="ImageSprite1" component-genus="ImageSprite" component-version="6" ></YoungAndroidUuidEntry>
+<YoungAndroidUuidEntry uuid="-831826124" component-id="Label1" component-genus="Label" component-version="2" ></YoungAndroidUuidEntry>
+</YoungAndroidUuidMap>
+</YoungAndroidMaps>
+</YACodeBlocks>
